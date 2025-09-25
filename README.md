@@ -1,5 +1,3 @@
-# curso-nlp-ifts24
-Repositorio con laboratorios, apuntes y trabajo integrador final del curso de NLP de IFTS24
 # Curso de Procesamiento de Lenguaje Natural (IFTS24)
 
 Este repositorio contiene todos los materiales, laboratorios y el trabajo integrador final desarrollados durante el curso de Procesamiento de Lenguaje Natural dictado por Matías Barreto en IFTS24.
