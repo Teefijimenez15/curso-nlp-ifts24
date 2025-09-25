@@ -14,7 +14,7 @@ El contenido está organizado por temas para facilitar la navegación.
 
 El proyecto principal de este curso es un análisis de NLP sobre los cuentos de Horacio Quiroga, donde se compara el lenguaje de sus obras para adultos con el de sus fábulas infantiles.
 
-**➡️ [Haz clic aquí para ver el Trabajo Integrador en detalle](./03-trabajo-integrador/README.md)**
+**➡️ [Haz clic aquí para ver el Trabajo Integrador en detalle]([./03-trabajo-integrador/README.md](https://github.com/Teefijimenez15/curso-nlp-ifts24/blob/main/jimenez-stefania-nlp-integrador/notebooks/jimenez_stefania_nlp_integrador.ipynb))**
 
 ---
 
