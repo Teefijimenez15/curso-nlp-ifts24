@@ -84,14 +84,4 @@ jimenez-stefania-nlp-integrador/
 **Stefania Jiménez** – Estudiante IFTS · Ciencia de Datos e IA
 Contacto: [Perfil GitHub](https://github.com/Teefijimenez15)
 
-```
-
----
-
-Si querés, te lo ajusto con:
-- el **número real de textos** y palabras,
-- las **fuentes exactas**,
-- y un **“Cómo reproducir versión rápida”** con `make` o un script `run.sh`.
-::contentReference[oaicite:0]{index=0}
-```
 
