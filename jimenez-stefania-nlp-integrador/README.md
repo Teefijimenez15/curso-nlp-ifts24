@@ -38,7 +38,6 @@ jimenez-stefania-nlp-integrador/
 
 > 💡 En este repo el notebook real se llama:  
 > **[`jimenez_stefania_nlp_integrador.ipynb`](./notebooks/jimenez_stefania_nlp_integrador.ipynb)**  
-> (se respeta la ruta exigida: `jimenez-stefania-nlp-integrador/notebooks/`)
 
 ---
 
