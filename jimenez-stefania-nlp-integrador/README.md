@@ -60,7 +60,7 @@ jimenez-stefania-nlp-integrador/
 
 ## 🔎 Principales Hallazgos
 
-* **Adulto**: mayor carga afectiva y léxico temático oscuro (*muerte, dolor, locura*); más **PER/ORG** en NER.
+* **Adulto**: mayor carga afectiva y léxico temático oscuro; más **PER/ORG** en NER.
 * **Infantil**: léxico concreto y zoológico (*animal, selva, cachorro*); más **LOC/ANIM** (según modelo).
 * **TF-IDF** separa mejor términos **característicos** por subcorpus; **BoW** refleja **frecuencias absolutas** y mezcla términos comunes.
 * **Embeddings** muestran **mayor cohesión intra-clase** que inter-clase; la similitud promedio Adulto↔Infantil es menor que Adulto↔Adulto/Infantil↔Infantil.
