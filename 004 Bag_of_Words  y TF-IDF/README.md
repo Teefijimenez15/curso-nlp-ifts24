@@ -1,8 +1,4 @@
 
----
-
-## `004 Bag_of_Words y TF-IDF/README.md`
-```markdown
 # 04 · Representación: BoW y TF-IDF (de palabras a vectores)
 
 ## ¿Qué es?
