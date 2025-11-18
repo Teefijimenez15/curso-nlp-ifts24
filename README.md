@@ -10,7 +10,7 @@ El objetivo de este espacio es centralizar mi aprendizaje en NLP, sirviendo como
 
 El contenido está organizado por temas para facilitar la navegación.
 
-## 🚀 Trabajo Integrador Final
+## 🚀 Trabajo Integrador 1
 
 El proyecto principal de este curso es un análisis de NLP sobre los cuentos de Horacio Quiroga, donde se compara el lenguaje de sus obras para adultos con el de sus fábulas infantiles.
 
@@ -21,5 +21,5 @@ El proyecto principal de este curso es un análisis de NLP sobre los cuentos de 
 
 ## Autor
 
-**Stefania Veronica Jimenez**
+**Stefania Veronica Jimenez Sanmartin**
 - **GitHub:** https://github.com/Teefijimenez15/curso-nlp-ifts24
