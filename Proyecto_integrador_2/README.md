@@ -1,118 +1,51 @@
-¡Entendido! Lo haré más sintético, conciso y enfocado en los aspectos técnicos clave para una entrega de TP de estudiante.
+# 🎓 TP Final Integrador: Sistema RAG y Análisis de Reseñas de *Harry Potter*
 
+## 🎯 Objetivo del Proyecto
+Desarrollar un pipeline completo de PLN que combine técnicas tradicionales (clasificación de sentimiento y clustering) con una arquitectura moderna **RAG** para analizar y consultar un corpus de reseñas de la saga *Harry Potter*.
 
+---
 
-🎓 TP Final Integrador: Sistema RAG y Análisis de Reseñas de Harry Potter
+## ⚙️ Arquitectura RAG (Retrieval-Augmented Generation)
 
-🎯 Objetivo del Proyecto
+El sistema permite realizar consultas en lenguaje natural sobre las reseñas, utilizando la siguiente cadena de componentes:
 
-Implementar un pipeline integral de PLN que combina técnicas tradicionales (clasificación de sentimiento y clustering) con una arquitectura moderna RAG para el análisis y consulta de un corpus de reseñas de la saga Harry Potter.
+- **Orquestación:** LangChain  
+- **División del texto:** `RecursiveCharacterTextSplitter`  
+- **Embeddings:** `sentence-transformers/all-MiniLM-L6-v2`  
+- **Vector Store:** ChromaDB (para persistencia y recuperación)  
+- **LLM:** `google/flan-t5-base` (vía HuggingFace Pipeline)
 
+---
 
+## 🔬 Análisis de Machine Learning Tradicional
 
-⚙️ Arquitectura RAG (Retrieval-Augmented Generation)
+### 1. Clasificación de Sentimiento
+Cada reseña fue clasificada en tres categorías: **positiva, negativa o neutra**.
 
-Este sistema permite hacer consultas en lenguaje natural sobre las reseñas, utilizando la siguiente cadena de herramientas:
+- **Vectorización:** TF-IDF  
+- **Modelos evaluados:** Naive Bayes y Random Forest  
+- **Resultado clave:** ambos modelos alcanzaron una **precisión de 1.00** en el conjunto de prueba, mostrando una clara separación entre categorías.
 
+### 2. Clustering (No Supervisado)
+- **Técnica:** K-Means  
+- **Input:** Embeddings obtenidos con *sentence-transformers*  
+- **Objetivo:** identificar grupos semánticos naturales dentro del corpus de reseñas
 
+---
 
-Orquestación: LangChain
+## 💾 Dataset y Dependencias
 
+- **Dataset:** `reseñas.csv`  
+- **Tecnologías clave:** Python, Pandas, Scikit-learn, LangChain, Transformers, ChromaDB  
+- **Ejecución:** a través del notebook  
+  `Tp_final_con_reseñas_de_harry_potter_csv.ipynb`  
+  con posibilidad de despliegue mediante Gradio o Streamlit
 
+---
 
-Splitter: RecursiveCharacterTextSplitter para crear chunks de texto manejables.
+## 💻 Instrucciones Rápidas
 
-
-
-Embeddings: Modelo sentence-transformers/all-MiniLM-L6-v2.
-
-
-
-Vector Store: ChromaDB (utilizada para persistir y recuperar los embeddings).
-
-
-
-LLM (Generación): google/flan-t5-base (via HuggingFace Pipeline).
-
-
-
-🔬 Análisis de Machine Learning Tradicional
-
-Se aplicaron técnicas supervisadas y no supervisadas para analizar las reseñas.
-
-
-
-1\. Clasificación de Sentimiento
-
-Se clasificó cada reseña en positivo, negativo o neutro.
-
-
-
-Vectorización: TF-IDF.
-
-
-
-Modelos Evaluados: Naive Bayes y Random Forest.
-
-
-
-Resultado Clave: Ambos modelos alcanzaron una precisión de 1.00 en el conjunto de prueba, demostrando una clara separación de las categorías de sentimiento en el dataset.
-
-
-
-2\. Clustering (Agrupación No Supervisada)
-
-Técnica: K-Means.
-
-
-
-Input: Embeddings generados con sentence-transformers.
-
-
-
-Propósito: Identificar grupos semánticos naturales dentro del corpus de reseñas.
-
-
-
-💾 Dataset y Dependencias
-
-Dataset: Reseñas de Harry Potter (reseñas.csv).
-
-
-
-Tecnologías Clave: Python, Pandas, Scikit-learn, LangChain, Transformers, ChromaDB.
-
-
-
-Ejecución: El proyecto se ejecuta a través del notebook Tp\_final\_con\_reseñas\_de\_harry\_potter\_csv.ipynb y puede ser desplegado mediante Gradio/Streamlit.
-
-
-
-💻 Instrucciones Rápidas
-
-Clonar el repositorio.
-
-
-
-Instalar dependencias (pip install -r requirements.txt).
-
-
-
-Ejecutar las celdas del notebook en orden para:
-
-
-
-Cargar y preprocesar datos.
-
-
-
-Entrenar modelos de ML.
-
-
-
-Generar y persistir la ChromaDB.
-
-
-
-Ejecutar la cadena RAG para consultas.
-
+1. Clonar el repositorio  
+2. Instalar dependencias:  
+   ```bash
+   pip install -r requirements.txt
