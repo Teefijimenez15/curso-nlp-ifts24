@@ -1,0 +1,8 @@
+streamlit
+pandas
+langchain==0.1.16
+langchain-community==0.0.34
+chromadb==0.5.4
+sentence-transformers==2.2.2
+transformers==4.44.0
+accelerate==0.33.0
