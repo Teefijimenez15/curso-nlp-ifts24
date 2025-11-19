@@ -1,16 +1,12 @@
-¡Entendido! Lo haré más sintético, conciso y enfocado en los aspectos técnicos clave para una entrega de TP de estudiante.
+#🎓 TP Final Integrador: Sistema RAG y Análisis de Reseñas de Harry Potter
 
-
-
-🎓 TP Final Integrador: Sistema RAG y Análisis de Reseñas de Harry Potter
-
-🎯 Objetivo del Proyecto
+#🎯 Objetivo del Proyecto
 
 Implementar un pipeline integral de PLN que combina técnicas tradicionales (clasificación de sentimiento y clustering) con una arquitectura moderna RAG para el análisis y consulta de un corpus de reseñas de la saga Harry Potter.
 
 
 
-⚙️ Arquitectura RAG (Retrieval-Augmented Generation)
+#⚙️ Arquitectura RAG (Retrieval-Augmented Generation)
 
 Este sistema permite hacer consultas en lenguaje natural sobre las reseñas, utilizando la siguiente cadena de herramientas:
 
@@ -36,7 +32,7 @@ LLM (Generación): google/flan-t5-base (via HuggingFace Pipeline).
 
 
 
-🔬 Análisis de Machine Learning Tradicional
+#🔬 Análisis de Machine Learning Tradicional
 
 Se aplicaron técnicas supervisadas y no supervisadas para analizar las reseñas.
 
